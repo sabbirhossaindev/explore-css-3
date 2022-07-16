@@ -1,0 +1,15 @@
+.box{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid crimson;
+    background-color: #792b2b;
+    /* transition: width 10s ease 1s, height 5s; */
+    transition: width 1s, height 1s, transform 1s;
+
+}
+.box:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}

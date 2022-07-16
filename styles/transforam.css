@@ -1,0 +1,14 @@
+.container, .inner{
+    width: 150px;
+    height: 150px;
+    border: 2px solid khaki;
+}
+.container{
+    background-color: aquamarine;
+}
+.inner{
+    background-color: darkorchid;
+    transform: translate(50px, 50px) scale(0.5) rotate(45deg);
+    /* transform: scale(0.5);    */
+    /* transform: rotate(45deg); */
+}

@@ -1,0 +1,14 @@
+/* .container{
+    display: flex;
+} */
+.box{
+    /* float: right; */
+    float: left;
+    cursor: pointer;
+    /* max-height: 200px; */
+    min-height: 400px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
